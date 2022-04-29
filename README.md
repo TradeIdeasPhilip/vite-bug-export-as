@@ -1,6 +1,6 @@
 # `export as` in *.d.ts vs Vite
 
-This project shows off a problem in Vite.
+This project shows off [a problem in Vite](https://github.com/vitejs/vite/issues/7964).
 
 I originally found the problem when I tried to `import { TextBufferGeometry } from "three/examples/jsm/geometries/TextGeometry.js"`.
 My program worked perfectly when I was using `TextGeometry` instead of `TextBufferGeometry`.
